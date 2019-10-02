@@ -484,7 +484,6 @@ Collection.prototype.processOnEnd = function (evt) {
                 self.trigger('removed ' + nipple.id + ':removed', nipple);
                 self.manager
                     .trigger('removed ' + nipple.id + ':removed', nipple);
-                nipple.destroy();
             }
         });
     }
